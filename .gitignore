@@ -1,0 +1,35 @@
+
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+*.iws
+*.ipr
+target
+out
+gen
+.git
+### Java template
+*.class
+*.classpath
+.settings/
+.project
+.metadata
+.index
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package #
+*.jar
+*.war
+*.ear
+
+hs_err_pid*
+
+*.log
+*.DS_Store

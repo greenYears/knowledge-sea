@@ -15,6 +15,7 @@ import lombok.experimental.Accessors;
 public abstract class Shape implements Cloneable {
     protected String id;
     protected String type;
+    protected String description;
 
     public abstract void draw();
 

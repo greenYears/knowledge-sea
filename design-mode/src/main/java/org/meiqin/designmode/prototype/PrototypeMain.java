@@ -12,26 +12,37 @@ import org.meiqin.designmode.prototype.shape.Shape;
 public class PrototypeMain {
     public static void main(String[] args) {
         ShapeCache.load();
+        System.out.println("-----------------------------");
         System.out.println("获取index=1的Shape");
         Shape shape = ShapeCache.getShape("1");
         System.out.println("Shape :" + shape.getType());
         shape.draw();
+        shape.setDescription("我要改成椭圆形");
+        System.out.println(shape.getDescription());
+        System.out.println("-----------------------------");
 
+        System.out.println("-----------------------------");
         System.out.println("获取index=1的Shape");
         Shape shape_1 = ShapeCache.getShape("1");
         System.out.println("Shape :" + shape_1.getType());
         shape_1.draw();
         System.out.println(shape == shape_1);
+        System.out.println(shape_1.getDescription());
+        System.out.println("-----------------------------");
 
+        System.out.println("-----------------------------");
         System.out.println("获取index=2的Shape");
         shape = ShapeCache.getShape("2");
         System.out.println("Shape :" + shape.getType());
         shape.draw();
+        System.out.println("-----------------------------");
 
+        System.out.println("-----------------------------");
         System.out.println("获取index=3的Shape");
         shape = ShapeCache.getShape("3");
         System.out.println("Shape :" + shape.getType());
         shape.draw();
+        System.out.println("-----------------------------");
 
     }
 }

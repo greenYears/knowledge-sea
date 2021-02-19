@@ -13,7 +13,9 @@ public class FacadeMain {
         Computer computer = new Computer();
         HomeTheaterFacade facade = new HomeTheaterFacade(audio, computer);
         facade.beginWatch();
+        System.out.println("-----------------------------");
         System.out.println("过了很久很久");
+        System.out.println("-----------------------------");
         facade.endWatch();
     }
 }

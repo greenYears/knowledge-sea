@@ -28,15 +28,15 @@ public class ShapeCache {
 
     public static void load() {
         Circle circle = new Circle();
-        circle.setId("1");
+        circle.setId("1").setDescription("这是一个圆形");
         shapeMap.put(circle.getId(),circle);
 
         Square square = new Square();
-        square.setId("2");
+        square.setId("2").setDescription("这是一个正方形");
         shapeMap.put(square.getId(),square);
 
         Rectangle rectangle = new Rectangle();
-        rectangle.setId("3");
+        rectangle.setId("3").setDescription("这是一个长方形");
         shapeMap.put(rectangle.getId(),rectangle);
     }
 }

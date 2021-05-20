@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1</version>
+        <version>2.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.meiqin</groupId>
@@ -36,5 +36,6 @@
     </dependencyManagement>
     <modules>
         <module>design-mode</module>
+        <module>proxy-design-pattern</module>
     </modules>
 </project>
